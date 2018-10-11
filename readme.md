@@ -31,7 +31,9 @@ http://test.com/admin
 ## 截图
 
 > 日志记录
+
 ![image](./screenshot/日志记录.png)
 
 > 警告记录
+
 ![image](./screenshot/警报记录.png)
