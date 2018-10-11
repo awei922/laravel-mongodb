@@ -55,7 +55,7 @@ class SendAlertListener implements ShouldQueue
         //根据字段类型来判断
         if(isset($alertConfig['alertField'])){
             //格林时间相差8小时，减去16小时，就是24小时内
-            $time = Carbon::parse(date('Y-m-d H:i:s',strtotime('-16 days')));
+            $time = Carbon::parse(date('Y-m-d H:i:s',strtotime('-16 hours')));
 
             $count = Log::where($alertConfig['alertField'],strval($logs[$alertConfig['alertField']]))->where('created_at','>=',$time)->count();
 
