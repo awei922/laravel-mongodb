@@ -40,5 +40,8 @@ http://test.com/admin
 
 ![image](./screenshot/警报记录.png)
 
-**欢迎反馈bug**
+### Bug反馈
+
+http://mjiong.com/21907.html
+
 
