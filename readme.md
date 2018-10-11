@@ -1,4 +1,4 @@
-# Laravel+Mongodb日志管理
+# Laravel+Mongodb日志管理系统
 
 使用Laravel框架通过扩展jenssegers/mongodb操作mongodb数据库组成的laravel日志管理系统 
 
