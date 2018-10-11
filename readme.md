@@ -13,7 +13,7 @@ $ php artisan migrate
 $ php artisan key:generate
 ```
 
-##使用说明
+## 使用说明
 
 * 日志记录
 
