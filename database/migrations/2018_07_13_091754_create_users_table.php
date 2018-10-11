@@ -14,7 +14,7 @@ class CreateUsersTable extends Migration
     public function up()
     {
         Schema::create('users', function ($collection) {
-            \App\Http\Models\User::create(['name'=>'管理员','email'=>'admin@test.com','password'=>bcrypt('admin123')]);
+            \App\Http\Models\User::create(['name'=>'管理员','email'=>'admin@admin.com','password'=>bcrypt('123456')]);
         });
     }
 
